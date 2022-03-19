@@ -1,0 +1,58 @@
+@media (max-width: 1230px) {
+    body {
+        background: url("/images/bg-pattern-top-mobile.svg") no-repeat top, url("/images/bg-pattern-bottom-mobile.svg") no-repeat bottom;
+    }
+    main {
+        padding: 20px;
+    }
+    main .top {
+        flex-direction: column;
+    }
+    main .top .text {
+        width: 80%;
+        
+    }
+    main .top .text h1 {
+        text-align: center;
+        font-size: 2em;
+        
+    }
+    main .top .text p {
+        text-align: center;
+        width: auto;
+        font-size: 1em;
+        margin: 20px 0;
+    }
+    main .top .rates .stars {
+        margin-bottom: 10px;
+    }
+    main .top .rates>div{
+        flex-direction: column;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    main .top .rate{
+        width: 80%;
+    }
+    .rate-1 {
+        margin-left: 0px !important; 
+    }
+    .rate-2 {
+        margin-left: 0px !important; 
+    }
+    main .bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main .bottom section .costumer h3{
+        font-size: 1.1em;
+    }
+    main .bottom section .costumer p{
+        font-size: .9em;
+    }
+    main .bottom .coment-3 {
+        margin-top: 20px;
+    }
+}
