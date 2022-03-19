@@ -12,7 +12,7 @@ body {
     background: url("../images/bg-pattern-top-desktop.svg") no-repeat top left, url("../images/bg-pattern-bottom-desktop.svg") no-repeat bottom right;
 }
 main {
-    padding: 100px;
+    padding: 165px;
 }
 main .top{
     display: flex;
